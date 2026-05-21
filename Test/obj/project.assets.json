@@ -2,16 +2,6 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "HashTable/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/HashTable.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HashTable.dll": {}
-        }
-      },
       "MyBinaryTreeProj/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -61,11 +51,6 @@
     }
   },
   "libraries": {
-    "HashTable/1.0.0": {
-      "type": "project",
-      "path": "../HashTable/HashTable.csproj",
-      "msbuildProject": "../HashTable/HashTable.csproj"
-    },
     "MyBinaryTreeProj/1.0.0": {
       "type": "project",
       "path": "../MyBinaryTreeProj/MyBinaryTreeProj.csproj",
@@ -89,7 +74,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "HashTable >= 1.0.0",
+      "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\HashTable\\HashTable.csproj",
       "MyBinaryTreeProj >= 1.0.0",
       "MyLinkedList >= 1.0.0",
       "MyQueueLib >= 1.0.0",
@@ -201,5 +186,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Tigran\\Desktop\\MyDataStructures\\HashTable\\HashTable.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\HashTable\\HashTable.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

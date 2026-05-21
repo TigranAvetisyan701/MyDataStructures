@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "m0WIOZNkvvc=",
-  "success": true,
+  "dgSpecHash": "sV242lzWRoI=",
+  "success": false,
   "projectFilePath": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\Test\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tigran\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
@@ -9,5 +9,17 @@
     "C:\\Users\\Tigran\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
     "C:\\Users\\Tigran\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Tigran\\Desktop\\MyDataStructures\\HashTable\\HashTable.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\Test\\Test.csproj",
+      "filePath": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\Test\\Test.csproj",
+      "libraryId": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\HashTable\\HashTable.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

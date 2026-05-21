@@ -10,3 +10,18 @@ C:\Users\Tigran\Desktop\MyDataStructures\MySetProject\MySetProject\obj\Debug\net
 C:\Users\Tigran\Desktop\MyDataStructures\MySetProject\MySetProject\obj\Debug\net7.0\refint\MySetProject.dll
 C:\Users\Tigran\Desktop\MyDataStructures\MySetProject\MySetProject\obj\Debug\net7.0\MySetProject.pdb
 C:\Users\Tigran\Desktop\MyDataStructures\MySetProject\MySetProject\obj\Debug\net7.0\ref\MySetProject.dll
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetProject\MySetProject\bin\Debug\net7.0\MySetProject.deps.json
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetProject\MySetProject\bin\Debug\net7.0\MySetProject.dll
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetProject\MySetProject\bin\Debug\net7.0\MySetProject.pdb
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetProject\MySetProject\obj\Debug\net7.0\MySetProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetProject\MySetProject\obj\Debug\net7.0\MySetProject.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetProject\MySetProject\obj\Debug\net7.0\MySetProject.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetProject\MySetProject\obj\Debug\net7.0\MySetProject.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetProject\MySetProject\obj\Debug\net7.0\MySetProject.sourcelink.json
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetProject\MySetProject\obj\Debug\net7.0\MySetProject.dll
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetProject\MySetProject\obj\Debug\net7.0\refint\MySetProject.dll
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetProject\MySetProject\obj\Debug\net7.0\MySetProject.pdb
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetProject\MySetProject\obj\Debug\net7.0\ref\MySetProject.dll
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetWPF\bin\run_check\MySetProject.deps.json
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetWPF\bin\run_check\MySetProject.dll
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetWPF\bin\run_check\MySetProject.pdb

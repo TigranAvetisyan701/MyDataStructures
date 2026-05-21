@@ -27,12 +27,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MySetWPF",
+              "Title": "MySetWPF.csproj",
               "DocumentMoniker": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\MySetWPF\\MySetWPF.csproj",
               "RelativeDocumentMoniker": "MySetWPF\\MySetWPF.csproj",
               "ToolTip": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\MySetWPF\\MySetWPF.csproj",
               "RelativeToolTip": "MySetWPF\\MySetWPF.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-05-21T16:23:59.563Z",
               "EditorCaption": ""
@@ -58,8 +58,7 @@
               "ToolTip": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\MySetWPF\\MainWindow.xaml",
               "RelativeToolTip": "MySetWPF\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-21T16:10:24.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T16:10:24.287Z"
             }
           ]
         }

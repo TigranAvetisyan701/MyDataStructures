@@ -10,3 +10,18 @@ C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.dll
 C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\obj\Debug\net7.0\refint\MySetLib.dll
 C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.pdb
 C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\obj\Debug\net7.0\ref\MySetLib.dll
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetLib\bin\Debug\net7.0\MySetLib.deps.json
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetLib\bin\Debug\net7.0\MySetLib.dll
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetLib\bin\Debug\net7.0\MySetLib.pdb
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.sourcelink.json
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.dll
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetLib\obj\Debug\net7.0\refint\MySetLib.dll
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.pdb
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetLib\obj\Debug\net7.0\ref\MySetLib.dll
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetWPF\bin\run_check\MySetLib.deps.json
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetWPF\bin\run_check\MySetLib.dll
+C:\Users\Admin\Desktop\Tiko qnnutyun\MyDataStructures\MySetWPF\bin\run_check\MySetLib.pdb
