@@ -1,4 +1,6 @@
-﻿MatrixMain(8);
+﻿using MyQueueLib;
+
+MatrixMain(8);
 
 MatrixAux(8);
 
@@ -6,7 +8,7 @@ Console.WriteLine(RookCheck([1, 8], [1, 8]));
 
 Console.WriteLine(KnightCheck([1, 8], [2, 6]));
 
-Console.WriteLine(KnightMinPath(3, 4, 7, 7));
+Console.WriteLine(KnightMinPath([3, 4], [7, 7]));
 
 Console.WriteLine(BishopCheck([1, 1], [4, 3]));
 
@@ -67,31 +69,45 @@ bool KnightCheck(int[] cell1, int[] cell2)
     return false;
 }
 
-int KnightMinPath(int x1, int y1, int x2, int y2)
+int KnightMinPath(int[] startCell, int[] endCell)
 {
-    int[] dx = { 1, 1, -1, -1, 2, 2, -2, -2 };
-    int[] dy = { 2, -2, 2, -2, 1, -1, 1, -1 };
+    if (startCell[0] == endCell[0] && startCell[1] == endCell[1]) return 0;
 
     int[,] distance = new int[8, 8];
     for (int i = 0; i < 8; i++)
         for (int j = 0; j < 8; j++)
             distance[i, j] = -1;
 
-    distance[x1, y1] = 0;
+    MyQueue<int[]> queue = new MyQueue<int[]>();
 
-    for (int step = 0; step < 63; step++)
-        for (int x = 0; x < 8; x++)
-            for (int y = 0; y < 8; y++)
-                if (distance[x, y] == step)
-                    for (int i = 0; i < 8; i++)
-                    {
-                        int nextX = x + dx[i];
-                        int nextY = y + dy[i];
-                        if (nextX >= 0 && nextX < 8 && nextY >= 0 && nextY < 8 && distance[nextX, nextY] == -1)
-                            distance[nextX, nextY] = step + 1;
-                    }
+    distance[startCell[0], startCell[1]] = 0;
+    queue.Enqueue(startCell);
 
-    return distance[x2, y2];
+    while (queue.Count > 0)
+    {
+        int[] current = queue.Dequeue();
+        int x = current[0];
+        int y = current[1];
+
+        if (x == endCell[0] && y == endCell[1])
+            return distance[x, y];
+
+        for (int nextX = 0; nextX < 8; nextX++)
+        {
+            for (int nextY = 0; nextY < 8; nextY++)
+            {
+                int[] nextCell = { nextX, nextY };
+
+                if (distance[nextX, nextY] == -1 && KnightCheck(current, nextCell))
+                {
+                    distance[nextX, nextY] = distance[x, y] + 1;
+                    queue.Enqueue(nextCell);
+                }
+            }
+        }
+    }
+
+    return distance[endCell[0], endCell[1]];
 }
 
 bool BishopCheck(int[] cell1, int[] cell2)
