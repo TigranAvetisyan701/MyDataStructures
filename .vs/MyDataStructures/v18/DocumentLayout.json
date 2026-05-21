@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84CAA928-B42C-43FB-B95E-9F782B32FEDF}|MyChessBoard\\MyChessBoard.csproj|c:\\users\\tigran\\desktop\\mydatastructures\\mychessboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84CAA928-B42C-43FB-B95E-9F782B32FEDF}|MyChessBoard\\MyChessBoard.csproj|solutionrelative:mychessboard\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE302263-C55A-51BE-33FB-BF11180A9D5C}|MySetWPF\\MySetWPF.csproj|c:\\users\\tigran\\desktop\\mydatastructures\\mysetwpf\\mysetwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE302263-C55A-51BE-33FB-BF11180A9D5C}|MySetWPF\\MySetWPF.csproj|solutionrelative:mysetwpf\\mysetwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE302263-C55A-51BE-33FB-BF11180A9D5C}|MySetWPF\\MySetWPF.csproj|c:\\users\\tigran\\desktop\\mydatastructures\\mysetwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE302263-C55A-51BE-33FB-BF11180A9D5C}|MySetWPF\\MySetWPF.csproj|solutionrelative:mysetwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE302263-C55A-51BE-33FB-BF11180A9D5C}|MySetWPF\\MySetWPF.csproj|c:\\users\\tigran\\desktop\\mydatastructures\\mysetwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE302263-C55A-51BE-33FB-BF11180A9D5C}|MySetWPF\\MySetWPF.csproj|solutionrelative:mysetwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\MyChessBoard\\Program.cs",
-              "RelativeDocumentMoniker": "MyChessBoard\\Program.cs",
-              "ToolTip": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\MyChessBoard\\Program.cs",
-              "RelativeToolTip": "MyChessBoard\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Title": "MySetWPF",
+              "DocumentMoniker": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\MySetWPF\\MySetWPF.csproj",
+              "RelativeDocumentMoniker": "MySetWPF\\MySetWPF.csproj",
+              "ToolTip": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\MySetWPF\\MySetWPF.csproj",
+              "RelativeToolTip": "MySetWPF\\MySetWPF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-21T16:23:59.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\MySetWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MySetWPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\MySetWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MySetWPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T13:21:53.182Z",
+              "WhenOpened": "2026-05-21T16:14:40.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\MySetWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MySetWPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Tigran\\Desktop\\MyDataStructures\\MySetWPF\\MainWindow.xaml",
+              "RelativeToolTip": "MySetWPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-21T16:10:24.287Z",
               "EditorCaption": ""
             }
           ]

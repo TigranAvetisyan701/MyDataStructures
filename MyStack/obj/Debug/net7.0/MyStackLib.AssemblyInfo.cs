@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyStackLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94452a13616434e08f9ea2915e48f50253ec643d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyStackLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyStackLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

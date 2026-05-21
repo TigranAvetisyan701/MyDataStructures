@@ -21,3 +21,4 @@ C:\Users\Student\Desktop\MyDataStructures\MyBinaryTreeProj\obj\Debug\net7.0\MyBi
 C:\Users\Student\Desktop\MyDataStructures\MyBinaryTreeProj\obj\Debug\net7.0\refint\MyBinaryTreeProj.dll
 C:\Users\Student\Desktop\MyDataStructures\MyBinaryTreeProj\obj\Debug\net7.0\MyBinaryTreeProj.pdb
 C:\Users\Student\Desktop\MyDataStructures\MyBinaryTreeProj\obj\Debug\net7.0\ref\MyBinaryTreeProj.dll
+C:\Users\Tigran\Desktop\MyDataStructures\MyBinaryTreeProj\obj\Debug\net7.0\MyBinaryTreeProj.sourcelink.json

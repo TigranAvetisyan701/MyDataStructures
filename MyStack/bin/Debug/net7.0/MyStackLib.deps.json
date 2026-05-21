@@ -16,7 +16,10 @@
       },
       "MyLinkedList/1.0.0": {
         "runtime": {
-          "MyLinkedList.dll": {}
+          "MyLinkedList.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

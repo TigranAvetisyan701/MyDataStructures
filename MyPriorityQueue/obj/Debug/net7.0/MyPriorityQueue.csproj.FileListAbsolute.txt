@@ -1,0 +1,5 @@
+C:\Users\Tigran\Desktop\MyDataStructures\MyPriorityQueue\obj\Debug\net7.0\MyPriorityQueue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tigran\Desktop\MyDataStructures\MyPriorityQueue\obj\Debug\net7.0\MyPriorityQueue.AssemblyInfoInputs.cache
+C:\Users\Tigran\Desktop\MyDataStructures\MyPriorityQueue\obj\Debug\net7.0\MyPriorityQueue.AssemblyInfo.cs
+C:\Users\Tigran\Desktop\MyDataStructures\MyPriorityQueue\obj\Debug\net7.0\MyPriorityQueue.csproj.CoreCompileInputs.cache
+C:\Users\Tigran\Desktop\MyDataStructures\MyPriorityQueue\obj\Debug\net7.0\MyPriorityQueue.sourcelink.json

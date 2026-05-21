@@ -1,0 +1,12 @@
+C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\bin\Debug\net7.0\MySetLib.deps.json
+C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\bin\Debug\net7.0\MySetLib.dll
+C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\bin\Debug\net7.0\MySetLib.pdb
+C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.AssemblyInfoInputs.cache
+C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.AssemblyInfo.cs
+C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.csproj.CoreCompileInputs.cache
+C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.sourcelink.json
+C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.dll
+C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\obj\Debug\net7.0\refint\MySetLib.dll
+C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\obj\Debug\net7.0\MySetLib.pdb
+C:\Users\Tigran\Desktop\MyDataStructures\MySetLib\obj\Debug\net7.0\ref\MySetLib.dll

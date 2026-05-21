@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using SetDemo;
@@ -6,9 +7,6 @@ using SetProject;
 
 namespace MySetWPF
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         MySet<Student> _men = new MySet<Student>();
@@ -32,7 +30,7 @@ namespace MySetWPF
             Student liz = new Student(6, "Elizabeth", Gender.Female);
             Student amy = new Student(7, "Amy", Gender.Female);
             Student eve = new Student(8, "Evelyn", Gender.Female);
-            _women.AddRange(new Student[] {liz, amy, eve });
+            _women.AddRange(new Student[] { liz, amy, eve });
 
             _reading.AddRange(new Student[] { james, robert, liz });
             _writing.AddRange(new Student[] { robert, mark, amy, eve, liz });
@@ -61,8 +59,7 @@ namespace MySetWPF
             operation.Items.Add("SYMETRIC DIFF");
         }
 
-
-        private void leftSet_SelectionChanged(object sender, SelectedCellsChangedEventArgs e)
+        private void leftSet_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             leftMembers.Items.Clear();
 
@@ -72,7 +69,7 @@ namespace MySetWPF
             }
         }
 
-        private void rightSet_SelectionChanged(object sender, SelectedCellsChangedEventArgs e)
+        private void rightSet_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             rightMembers.Items.Clear();
 
@@ -80,11 +77,6 @@ namespace MySetWPF
             {
                 DisplaySetData(GetSetByName(e.AddedItems[0].ToString()), rightMembers);
             }
-        }
-
-        MySet<Student> GetSetByName(string name)
-        {
-            return allSets[name];
         }
 
         MySet<Student> GetSetByName(string name)
@@ -105,18 +97,17 @@ namespace MySetWPF
         private void evaluateButton_Click(object sender, RoutedEventArgs e)
         {
             resultSet.Items.Clear();
-            if(operation.SelectedItem != null)
+            if (operation.SelectedItem != null)
             {
                 MySet<Student> results = UpdateResultSet(GetSetByName(leftSet.SelectedItem.ToString()),
                     GetSetByName(rightSet.SelectedItem.ToString()), operation.SelectedItem.ToString());
                 DisplaySetData(results, resultSet);
-
             }
         }
 
         private MySet<Student> UpdateResultSet(MySet<Student> left, MySet<Student> right, string op)
         {
-            switch(op)
+            switch (op)
             {
                 case "UNION":
                     return left.Union(right);

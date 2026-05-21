@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyPriorityQueue")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94452a13616434e08f9ea2915e48f50253ec643d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyPriorityQueue")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyPriorityQueue")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
