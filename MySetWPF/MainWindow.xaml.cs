@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
-using SetDemo;
 using SetProject;
+using SetDemo;
 
 namespace MySetWPF
 {
@@ -11,15 +10,16 @@ namespace MySetWPF
     {
         MySet<Student> _men = new MySet<Student>();
         MySet<Student> _women = new MySet<Student>();
-
         MySet<Student> _reading = new MySet<Student>();
-        MySet<Student> _arithmetic = new MySet<Student>();
         MySet<Student> _writing = new MySet<Student>();
+        MySet<Student> _arithmetic = new MySet<Student>();
 
         Dictionary<string, MySet<Student>> allSets = new Dictionary<string, MySet<Student>>();
 
         public MainWindow()
         {
+            InitializeComponent();
+
             Student james = new Student(1, "James", Gender.Male);
             Student robert = new Student(2, "Robert", Gender.Male);
             Student john = new Student(3, "John", Gender.Male);
@@ -41,16 +41,14 @@ namespace MySetWPF
             allSets.Add("Reading", _reading);
             allSets.Add("Writing", _writing);
             allSets.Add("Arithmetic", _arithmetic);
-
-            InitializeComponent();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            foreach (string student in allSets.Keys)
+            foreach (string name in allSets.Keys)
             {
-                leftSet.Items.Add(student);
-                rightSet.Items.Add(student);
+                leftSet.Items.Add(name);
+                rightSet.Items.Add(name);
             }
 
             operation.Items.Add("UNION");
@@ -59,69 +57,61 @@ namespace MySetWPF
             operation.Items.Add("SYMETRIC DIFF");
         }
 
-        private void leftSet_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void Set_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            leftMembers.Items.Clear();
+            if (sender is not ComboBox combo) return;
+            if (e.AddedItems.Count == 0) return;
 
-            if (e.AddedItems.Count > 0)
+            var selectedName = e.AddedItems[0] as string;
+            if (selectedName == null) return;
+
+            if (!allSets.TryGetValue(selectedName, out var selectedSet)) return;
+
+            if (combo.Name == "leftSet")
             {
-                DisplaySetData(GetSetByName(e.AddedItems[0].ToString()), leftMembers);
+                leftMembers.Items.Clear();
+                foreach (var s in selectedSet)
+                    leftMembers.Items.Add(s.Name);
             }
-        }
-
-        private void rightSet_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            rightMembers.Items.Clear();
-
-            if (e.AddedItems.Count > 0)
+            else if (combo.Name == "rightSet")
             {
-                DisplaySetData(GetSetByName(e.AddedItems[0].ToString()), rightMembers);
-            }
-        }
-
-        MySet<Student> GetSetByName(string name)
-        {
-            return allSets[name];
-        }
-
-        void DisplaySetData(MySet<Student> set, ListBox list)
-        {
-            list.Items.Clear();
-
-            foreach (Student s in set.OrderBy(student => student.StudentId))
-            {
-                list.Items.Add(string.Format("{0}: {1}", s.StudentId, s.Name));
+                rightMembers.Items.Clear();
+                foreach (var s in selectedSet)
+                    rightMembers.Items.Add(s.Name);
             }
         }
 
         private void evaluateButton_Click(object sender, RoutedEventArgs e)
         {
-            resultSet.Items.Clear();
-            if (operation.SelectedItem != null)
-            {
-                MySet<Student> results = UpdateResultSet(GetSetByName(leftSet.SelectedItem.ToString()),
-                    GetSetByName(rightSet.SelectedItem.ToString()), operation.SelectedItem.ToString());
-                DisplaySetData(results, resultSet);
-            }
-        }
+            var leftName = leftSet.SelectedItem as string;
+            var rightName = rightSet.SelectedItem as string;
+            var op = operation.SelectedItem as string;
 
-        private MySet<Student> UpdateResultSet(MySet<Student> left, MySet<Student> right, string op)
-        {
-            switch (op)
+            if (leftName == null || rightName == null || op == null)
             {
-                case "UNION":
-                    return left.Union(right);
-                case "INTERSECTION":
-                    return left.Intersection(right);
-                case "DIFFERENCE":
-                    return left.Difference(right);
-                case "SYMETRIC DIFF":
-                    return left.SymmetricDifference(right);
-                default:
-                    MySet<Student> resultSet = new MySet<Student>();
-                    resultSet.Add(new Student(-1, "ERROR", Gender.Unknown));
-                    return resultSet;
+                MessageBox.Show("Please select both sets and an operation.");
+                return;
             }
+
+            if (!allSets.TryGetValue(leftName, out var left) ||
+                !allSets.TryGetValue(rightName, out var right))
+            {
+                MessageBox.Show("Invalid selection.");
+                return;
+            }
+
+            MySet<Student> result = op switch
+            {
+                "UNION" => left.Union(right),
+                "INTERSECTION" => left.Intersection(right),
+                "DIFFERENCE" => left.Difference(right),
+                "SYMETRIC DIFF" => left.SymmetricDifference(right),
+                _ => new MySet<Student>()
+            };
+
+            resultSet.Items.Clear();
+            foreach (var s in result)
+                resultSet.Items.Add(s.Name);
         }
     }
 }

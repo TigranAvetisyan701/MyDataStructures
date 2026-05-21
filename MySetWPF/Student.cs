@@ -21,6 +21,6 @@ public class Student : IComparable<Student>
 
     public int CompareTo(Student? obj)
     {
-        return StudentId.CompareTo(obj.StudentId);
+        return StudentId.CompareTo(obj?.StudentId);
     }
 }

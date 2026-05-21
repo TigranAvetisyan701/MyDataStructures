@@ -29,7 +29,10 @@ public class MySet<T> : IEnumerable<T> where T : IComparable<T>
 
     public bool Contains(T item)
     {
-        return _list.Contains(item);
+        foreach (var i in _list)
+            if (i.CompareTo(item) == 0)
+                return true;
+        return false;
     }
 
     public void Remove(T item)

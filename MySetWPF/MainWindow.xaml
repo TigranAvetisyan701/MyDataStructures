@@ -3,9 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Set Collection" Height="350" Width="625" Loaded="Window_Loaded">
     <Grid>
-        <ComboBox x:Name="leftSet" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="leftSet_SelectionChanged"/>
+        <ComboBox x:Name="leftSet" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Set_SelectionChanged"/>
         <ComboBox x:Name="operation" HorizontalAlignment="Left" Margin="160,10,0,0" VerticalAlignment="Top" Width="120"/>
-        <ComboBox x:Name="rightSet" HorizontalAlignment="Left" Margin="310,10,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="rightSet_SelectionChanged"/>
+        <ComboBox x:Name="rightSet" HorizontalAlignment="Left" Margin="310,10,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Set_SelectionChanged"/>
 
         <Button x:Name="evaluateButton" Content="Evaluate" HorizontalAlignment="Left" Margin="460,10,0,0" VerticalAlignment="Top" Width="75" Click="evaluateButton_Click"/>
 
