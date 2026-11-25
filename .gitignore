@@ -1,0 +1,17 @@
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# IDE files
+*.cache
+*.sln.docstates
+
+# Temporary files
+*.tmp
+*.log
